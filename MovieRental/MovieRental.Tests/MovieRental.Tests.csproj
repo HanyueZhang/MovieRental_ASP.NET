@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D07D2979-6AC6-4051-9AE9-6A597DD7B653}</ProjectGuid>
+    <ProjectGuid>{44EB20B9-BFAB-4CF1-A09B-3D79C003381A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>MovieRental.Tests</RootNamespace>
     <AssemblyName>MovieRental.Tests</AssemblyName>
@@ -77,12 +77,12 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MovieRental\MovieRental.csproj">
-      <Project>{898D90A4-A4F1-40D3-9FEC-3359C798DF8E}</Project>
+      <Project>{25EA249A-8659-4A1B-B339-802BB649917E}</Project>
       <Name>MovieRental</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\Test.cs" />
+    <Compile Include="Controllers\HomeControllerTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
